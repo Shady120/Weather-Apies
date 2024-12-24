@@ -11,7 +11,7 @@ export default function Home() {
   function getWeather() {
     axios
       .get(
-        `http://api.weatherapi.com/v1/forecast.json?key=93ca3eff6ffd4de1aba185822240110&q=${city}&days=3&aqi=yes&alerts=yes`
+        `https://api.weatherapi.com/v1/forecast.json?key=93ca3eff6ffd4de1aba185822240110&q=${city}&days=3&aqi=yes&alerts=yes`
       )
       .then((res) => {
         setDate(res.data);
