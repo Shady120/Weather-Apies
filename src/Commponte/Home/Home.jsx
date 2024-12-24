@@ -49,6 +49,7 @@ export default function Home() {
 
   
   return (
+    <>
     <div className={`${style.weather}`}>
       <div className="flex justify-center items-center py-10 ">
         <div className={style.search_container}>
@@ -130,5 +131,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+    </>
   );
 }
